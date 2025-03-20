@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subash | Portfolio</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #0f172a;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+
+        /* Header Section */
+        header {
+            padding: 50px 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #94a3b8;
+        }
+
+        /* Skills Section */
+        .skills-section {
+            padding: 30px 0;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skills span {
+            background: #2563eb;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+
+        .skills span:hover {
+            transform: scale(1.1);
+            background: #3b82f6;
+        }
+
+        /* Projects Section */
+        .projects-section {
+            padding: 30px 0;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .project h3 {
+            color: #60a5fa;
+        }
+
+        .project p {
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+        }
+
+        /* Contact Section */
+        .contact-section {
+            padding: 30px 0;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-links a {
+            font-size: 2rem;
+            color: #60a5fa;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.2);
+            color: #3b82f6;
+        }
+
+        /* Contact Info */
+        .contact-info {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Subash</h1>
+            <p>Software Developer | React | Java | AWS</p>
+        </header>
+
+        <!-- Skills Section -->
+        <section class="skills-section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span>React</span>
+                <span>Java</span>
+                <span>AWS</span>
+                <span>Terraform</span>
+                <span>CI/CD</span>
+                <span>Docker</span>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Timesheet App</h3>
+                    <p>A timesheet management system following DCAA compliance.</p>
+                </div>
+                <div class="project">
+                    <h3>DevOps Automation</h3>
+                    <p>Automated CI/CD pipelines using Terraform & Jenkins.</p>
+                </div>
+                <div class="project">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio showcasing projects & skills.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <h2>Contact</h2>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="contact-info">
+                <p>📞 8610873849</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
